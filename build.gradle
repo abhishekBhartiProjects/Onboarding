@@ -2,6 +2,12 @@
 
 buildscript {
     ext.kotlin_version = '1.3.21'
+    ext {
+        //room
+        roomVersion = '2.2.0-beta01'
+        archLifecycleVersion = '2.2.0-alpha03'
+        coreTestingVersion = "2.1.0-rc01"
+    }
     repositories {
         google()
         jcenter()

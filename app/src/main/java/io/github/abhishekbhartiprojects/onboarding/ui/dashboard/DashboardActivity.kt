@@ -1,9 +1,10 @@
-package io.github.abhishekbhartiprojects.onboarding
+package io.github.abhishekbhartiprojects.onboarding.ui.dashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import io.github.abhishekbhartiprojects.onboarding.R
 
-class MainActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
